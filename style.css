@@ -19,14 +19,20 @@ body {
     border-radius: 1.25rem;
     background-color: hsl(0, 0%, 100%);
     text-align: center;
+    box-shadow: 0 10px 20px 0 #00000011;
 }
 
 .qr-text {
     padding: 0 1rem 1rem;
 }
 
+.qr-text > h2 {
+    color: hsl(218, 44%, 22%);
+    margin-bottom: .75rem;
+}
 .qr-text > p {
-    color: hsl(220, 15%, 55%)
+    color: hsl(220, 15%, 55%);
+    margin-block: .75rem;
 }
 
 .qr-img {
